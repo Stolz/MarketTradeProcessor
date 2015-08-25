@@ -2,7 +2,7 @@
 
 <ruleset name="Stolz">
 
-	<description>Stolz's custom PSR-2 rules for Laravel</description>
+	<description>Stolz's custom PSR-2 rules for Laravel Lumen</description>
 
 	<exclude-pattern>/public/</exclude-pattern>
 	<exclude-pattern>/storage/</exclude-pattern>
