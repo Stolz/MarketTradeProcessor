@@ -17,7 +17,10 @@
 	<rule ref="Generic.Formatting.SpaceAfterCast"/>
 
 	<!--Function name in camelCase-->
-	<rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
+	<rule ref="Generic.NamingConventions.CamelCapsFunctionName">
+		<!--Allow helpers with snake_case-->
+		<exclude-pattern>/resources/helpers.php</exclude-pattern>
+	</rule>
 
 	<!--PHP5 constructor syntax "function __construct()"-->
 	<rule ref="Generic.NamingConventions.ConstructorName"/>

@@ -1,6 +1,8 @@
+*.kate-swp
 *.orig
 *~
 .*~
 .env
 .inotify
 /vendor
+storage/database.sqlite
