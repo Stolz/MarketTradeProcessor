@@ -1,0 +1,6 @@
+*.orig
+*~
+.*~
+.env
+.inotify
+/vendor
