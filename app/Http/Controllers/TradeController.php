@@ -77,7 +77,7 @@ class TradeController extends Controller
 		// Queue message to be processed later
 		$this->dispatch(new ProcessMessageJob($message));
 
-		return redirect()->back()->withSuccess(sprintf('Message %d successfully created', $message->getKey()));
+		return redirect('/')->withSuccess(sprintf('Message %d successfully created', $message->getKey()));
 	}
 
 	/**

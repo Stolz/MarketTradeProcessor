@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('CurrenciesTableSeeder');
 		$this->call('CountriesTableSeeder');
 		$this->call('UsersTableSeeder');
-		$this->call('MessagesTableSeeder');
+		// $this->call('MessagesTableSeeder');
 
 		Model::reguard();
 	}

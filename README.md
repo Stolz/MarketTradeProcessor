@@ -39,6 +39,11 @@ To execute the message processor run from another console the next command:
 
 	php artisan queue:work --daemon
 
+## Testing
+
+	composer install
+	./vendor/bin/phpunit
+
 ## Notes
 
 - For demonstration purposes *debug/development* mode is intentionally enabled by default.
